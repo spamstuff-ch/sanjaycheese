@@ -13,31 +13,31 @@ Take webcam shots from target just sending a malicious link
 
 ```
 for begineer download termux form the playstore
-Give the storage permissions to termux application.(settings/manageapp/termux/permissions)
-update termux by command (  apt update && apt upgrade  )
-install git by command (   apt install git   )
-next (  git clone https://github.com/spamstuff-ch/sj.git    )
-use ls command to show directory ( ls )
-enter into the Directory by ( cd sj  )
-again see whats inside sj directory ( ls )
+Give the storage permissions to termux application.                   (settings/manageapp/termux/permissions)
+update termux by command                                              (  apt update && apt upgrade  )
+install git by command                                                (   apt install git   )
+next                                                                  (  git clone https://github.com/spamstuff-ch/sanjaycheese.git    )
+use ls command to show directory                                      ( ls )
+enter into the Directory by                                           ( cd sanjaycheese  )
+again see whats inside sj directory                                   ( ls )
 you will find some elements
-to get those all elements in executable format use (   chmod +x *   )
-some additional packages to be installed to run these script so use ( apt install php && pkg install wget )
-run the shell command by (  ./sjcheese.sh  )
+to get those all elements in executable format use                    (   chmod +x *   )
+some additional packages to be installed to run these script so use   ( apt install php && pkg install wget )
+run the shell command by                                              (  ./sjcheese.sh  )
 choose option 2 for ngrok
-In termux turn on your mobile hotspot to generate link with ngrok ( with internet )
+*In termux turn on your mobile hotspot to generate link with ngrok    ( with internet )
 Send the generated link to the victim 
 if victim grant permission you will get the snaps of the victim
-to kill the process press (  ctrl + c )
+to kill the process press                                             (  ctrl + c )
 All camfiles will be stored in the same directory
-move the camfiles to the sdcard by (  mv <name of camfile eg:cam.....> /sdcard)
+move the camfiles to the sdcard by                                    (  mv <name of camfile eg:cam.....> /sdcard)
 open your file manager to see the snaps
 ```
 
 ## Installing (Kali Linux):
 
 ```
-git clone https://github.com/spamstuff-ch/sj.git
-cd sjcheese
+git clone https://github.com/spamstuff-ch/sanjaycheese.git
+cd sanjaycheese
 bash sjcheese.sh (or) ./sjcheese.sh
 ```
